@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="service_logo.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Recources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="service_logo.png" />
+  </ItemGroup>
+
+</Project>
